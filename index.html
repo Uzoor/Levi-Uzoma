@@ -964,7 +964,7 @@
 <!-- STATS -->
 <div class="stats-bar">
   <div class="stat">
-    <div class="stat-number">6</div>
+    <div class="stat-number">10</div>
     <div class="stat-label">Live Deployments</div>
   </div>
   <div class="stat">
@@ -998,7 +998,7 @@
       <div class="skill-icon">🤖</div>
       <div class="skill-title">AI Agent Development</div>
       <div class="skill-tags">
-        <span class="tag">Google Gemini</span><span class="tag">OpenAI</span><span class="tag">OpenRouter</span><span class="tag">Prompt Engineering</span><span class="tag">RAG</span>
+        <span class="tag">Google Gemini</span><span class="tag">OpenAI</span><span class="tag">Groq</span><span class="tag">Claude</span><span class="tag">Prompt Engineering</span><span class="tag">RAG</span>
       </div>
     </div>
     <div class="skill-card">
@@ -1171,6 +1171,90 @@
         <span class="stack-tag">WordPress</span>
         <span class="stack-tag">Netlify</span>
         <span class="stack-tag">Whogohost</span>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-header">
+        <span class="project-number">07</span>
+        <span class="project-status">● Live</span>
+      </div>
+      <div class="project-name">MFB Fraud Detection Engine</div>
+      <div class="project-client">Staff Transaction Monitoring · Microfinance Banking</div>
+      <div class="project-desc">Automated risk engine that pulls core-banking transactions every 15 minutes, screens them against rule-based anomaly checks (after-hours, velocity, threshold proximity, dormant accounts), then hands flagged cases to Claude for a risk score and plain-English explanation before routing anything serious straight to compliance.</div>
+      <ul class="project-outcomes">
+        <li>Flags high/critical cases to Slack and email within minutes</li>
+        <li>Every case logged automatically for audit trail</li>
+        <li>Rule engine + AI scoring runs with zero manual review</li>
+      </ul>
+      <div class="project-stack">
+        <span class="stack-tag">N8N</span>
+        <span class="stack-tag">PostgreSQL</span>
+        <span class="stack-tag">Claude API</span>
+        <span class="stack-tag">Slack</span>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-header">
+        <span class="project-number">08</span>
+        <span class="project-status">● Live · WhatsApp</span>
+      </div>
+      <div class="project-name">WhatsApp Sales Logger</div>
+      <div class="project-client">Sales Record-Keeping · Nigerian SMEs</div>
+      <div class="project-desc">Lets a business owner log a sale just by sending a WhatsApp voice note or text. Voice is transcribed with Whisper, then Claude extracts item, quantity, price, and payment status — understanding Pidgin English and shorthand like "45k" — and logs it straight to Google Sheets with an instant confirmation reply.</div>
+      <ul class="project-outcomes">
+        <li>Sales logged in seconds, no app or spreadsheet needed</li>
+        <li>Handles both voice notes and free text messages</li>
+        <li>Understands Pidgin English and informal shorthand</li>
+      </ul>
+      <div class="project-stack">
+        <span class="stack-tag">N8N</span>
+        <span class="stack-tag">Twilio</span>
+        <span class="stack-tag">Whisper API</span>
+        <span class="stack-tag">Claude API</span>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-header">
+        <span class="project-number">09</span>
+        <span class="project-status">● Live · WhatsApp</span>
+      </div>
+      <div class="project-name">WhatsApp Order Extraction</div>
+      <div class="project-client">Order Intake Automation · Retail</div>
+      <div class="project-desc">Reads incoming WhatsApp order messages — even multi-item ones written in Pidgin or shorthand — and uses an LLM to extract structured order data, then routes each item to the right backend sheet by product category automatically.</div>
+      <ul class="project-outcomes">
+        <li>Handles multiple items in a single message</li>
+        <li>Auto-routes orders by product category</li>
+        <li>Flags unclear messages for clarification instead of guessing</li>
+      </ul>
+      <div class="project-stack">
+        <span class="stack-tag">N8N</span>
+        <span class="stack-tag">Evolution API</span>
+        <span class="stack-tag">Groq API</span>
+        <span class="stack-tag">Google Sheets</span>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-header">
+        <span class="project-number">10</span>
+        <span class="project-status">● Live · WhatsApp</span>
+      </div>
+      <div class="project-name">Shopify Cart Recovery Agent</div>
+      <div class="project-client">Abandoned Cart Recovery · E-commerce</div>
+      <div class="project-desc">A conversational AI agent that re-engages customers who abandoned their Shopify cart, chatting with them over WhatsApp using only real store facts — shipping, delivery time, returns, promo codes — while keeping full conversation memory, and logging every lead and reply for follow-up.</div>
+      <ul class="project-outcomes">
+        <li>Re-engages abandoned carts without any manual follow-up</li>
+        <li>Grounded only in real store facts — never invents answers</li>
+        <li>Every conversation and outcome logged automatically</li>
+      </ul>
+      <div class="project-stack">
+        <span class="stack-tag">N8N</span>
+        <span class="stack-tag">AI Agent</span>
+        <span class="stack-tag">Groq API</span>
+        <span class="stack-tag">Google Sheets</span>
       </div>
     </div>
 
